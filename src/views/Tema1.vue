@@ -10,7 +10,7 @@
       .col-lg-7.p-0.up.my-3      
         Traduccion.color-acento-botones(:dialogo="traduccion1")(data-aos="flip-up")   
       .col-lg-5.up.my-3 
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')             
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/6.jpg', alt='')             
 
     .bg2.mb-5
       .col-12.px-5.pt-5
@@ -213,7 +213,7 @@
     .pt-5
     p(data-aos="fade-down").mb-5.pt-5 
       span.r--4.fst-italic Below are some warnings to identify the correct use of "that": 
-      span.r--gris / A continuación, se brindan algunas recomendaciones para identificar el uso correcto de “that”: 
+      span.r--gris / A continuación, se brindan algunas recomendaciones para identificar el uso correcto de “<i>that</i>”: 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12
@@ -224,16 +224,16 @@
                 img(data-aos="zoom-in")(src='@/assets/curso/temas/15.svg', alt='')
             .col-lg-10.bg4.p-4.ps-5
               p(data-aos="fade-down").mb-0.ps-5 
-                span.r--white.fst-italic The word “that” is enclosed in parenthesis to show that it is optional. The meaning is exactly the same whether you use “that” or don’t use it. 
-                span.r--black / La palabra “that” está entre paréntesis para mostrar que es opcional. El significado es exactamente el mismo si usa “that” o si no la usa.  
+                span.r--white.fst-italic The word “<i>that</i>” is enclosed in parenthesis to show that it is optional. The meaning is exactly the same whether you use “that” or don’t use it. 
+                span.r--black / La palabra “<i>that</i>” está entre paréntesis para mostrar que es opcional. El significado es exactamente el mismo si usa “<i>that</i>” o si no la usa.  
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8
         p(data-aos="fade-down")
-          span.r--4.fst-italic You have to take into account the idea and intention of the information cited, since sometimes, when reporting it, a change of tense is not necessary.
+          span.r--4.fst-italic You have to take into account the idea and intention of the information cited, since sometimes, when reporting it, a change of tense is not necessary. 
           span.r--gris / Se debe tener en cuenta la idea y la intención de la información citada, porque a veces, al reportarla, no es necesario un cambio de tiempo.  
         p(data-aos="fade-down").text-center.my-5
-          span.r--4.fst-italic For example:
+          span.r--4.fst-italic For example: 
           span.r--gris / Por ejemplo: 
         .row.justify-content-center.align-items-center.mb-5           
           .col-lg-6
@@ -250,7 +250,7 @@
               img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/18.svg', alt='')        
               h5.tblue.mb-4.text-center Reported Speech
               TarjetaAudio.color-acento-botones.bg-white.mb-4.mx-1(
-                  texto="Reported speech: He said that he checks the inventory every week."
+                  texto="He said that he checks the inventory every week."
                   :audio="require('@/assets/curso/audios/Tema1/15.mp3')"
                 )               
               p.mb-0 Él dijo que revisa el inventario todas las semanas.                   
@@ -262,8 +262,8 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/19.svg', alt='')                
       .col-lg-8
         p(data-aos="fade-down")
-          span.r--4.fst-italic In this example, checking the inventory is implied as a habitual action, which is repeated with some regularity. Therefore, you still need to retain the present tense of the verb.
-          span.r--gris En este ejemplo, revisar el inventario se implica como una acción habitual, que se repite con cierta regularidad, por lo tanto, debe retener el tiempo presente del verbo.         
+          span.r--4.fst-italic In this example, checking the inventory is implied as a habitual action, which is repeated with some regularity. Therefore, you still need to retain the present tense of the verb. 
+          span.r--gris / En este ejemplo, revisar el inventario se implica como una acción habitual, que se repite con cierta regularidad, por lo tanto, debe retener el tiempo presente del verbo.         
 
     .bg6
       h4.mb-4.pt-4.tblue Other reporting verbs / Otros verbos para reportar
@@ -318,7 +318,7 @@
               div
                 .row.justify-content-center
                   .col-lg-6
-                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/24.png', alt='')  
+                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')  
 
                   .col-lg-6
                     h4.mb-4.text-center.tblue1 Direct Speech 
@@ -337,7 +337,7 @@
               div
                 .row.justify-content-center
                   .col-lg-6
-                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')  
+                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/24.png', alt='')  
 
                   .col-lg-6
                     h4.mb-4.text-center.tblue1 Direct Speech 
@@ -621,7 +621,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>Reported speech is often used to convey what someone else said without directly quoting what was said. For this, most often, the tense of the sentence is changed. Reporting verbs such as “say”, “tell”, “ask”, and others are used to present the information. The first person’s words are not enclosed in quotation marks.<br> And in some cases, but not always, the word “that” is used to connect the reporting verb to the reported information.</em>',
+            '<em>Reported speech is often used to convey what someone else said without directly quoting what was said. For this, most often, the tense of the sentence is changed. Reporting verbs such as “<span><em>say</span></em>”, “<span><em>tell</span></em>”, “<span><em>ask</span></em>”, and others are used to present the information. The first person’s words are not enclosed in quotation marks.<br> And in some cases, but not always, the word “that” is used to connect the reporting verb to the reported information.</em>',
           textoEsp:
             'El discurso indirecto suele usarse para transmitir lo que alguien más dijo sin citar directamente lo que se dijo. Para esto, la mayoría de las veces, se cambia el tiempo de la oración. Los verbos para reportar, como “say”, “tell”, “ask” y otros se utilizan para presentar la información. Las palabras de la primera persona no se presentan entre comillas, y en algunos casos, pero no siempre, la palabra "that" se usa para conectar el verbo para reportar con la información reportada.',
         },

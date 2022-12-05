@@ -85,12 +85,12 @@
         .col-lg-6.up.my-3      
           Traduccion.color-acento-botones(:dialogo="traduccion2")(data-aos="flip-up")
       p(data-aos="fade-down").mb-5
-        span.r--4.fst-italic In this lesson, you’ll learn a bit about three different ways sounds are linked in the connected speech: catenation, intrusion, and gemination. Let’s see some examples:
-        span.r--gris /En esta lección, aprenderá un poco sobre tres formas diferentes en que los sonidos se vinculan en el habla conectada: concatenación, intrusión y geminación. Veamos algunos ejemplos: 
+        span.r--4.fst-italic In this lesson, you’ll learn a bit about three different ways sounds are linked in the connected speech: catenation, intrusion, and gemination. Let’s see some examples: 
+        span.r--gris / En esta lección, aprenderá un poco sobre tres formas diferentes en que los sonidos se vinculan en el habla conectada: concatenación, intrusión y geminación. Veamos algunos ejemplos: 
 
       TabsA.color-acento-botones.mb-5 
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Catenation / Concatenación")
-          h4.mb-4 Catenation / Concatenación
+        .tarjeta.color-acento-botones--borde.p-4(titulo="<i>Catenation</i> / Concatenación")
+          h4.mb-4 <i>Catenation</i> / Concatenación
           Traduccion.color-acento-botones.mb-4(:dialogo="traduccion3")
           h5.text-center <em>For example:</em> / Por ejemplo:           
           .row.justify-content-center.align-items-center
@@ -121,8 +121,8 @@
                     )
                   p.fst-italic aguantar      
 
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Intrusion / Intrusión")
-          h4.mb-4 Intrusion / Intrusión
+        .tarjeta.color-acento-botones--borde.p-4(titulo="<i>Intrusion</i> / Intrusión")
+          h4.mb-4 <i>Intrusion</i> / Intrusión
           Traduccion.color-acento-botones.mb-4(:dialogo="traduccion4")
           h5.text-center <em>For example:</em> / Por ejemplo:           
           .row.justify-content-center.align-items-center
@@ -153,8 +153,8 @@
                     )
                   p.fst-italic continúa
 
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Geminate consonants / Consonantes geminadas")
-          h4.mb-4 Geminate consonants / Consonantes geminadas
+        .tarjeta.color-acento-botones--borde.p-4(titulo="<i>Geminate consonants</i> / Consonantes geminadas")
+          h4.mb-4 <i>Geminate consonants</i> / Consonantes geminadas
           Traduccion.color-acento-botones.mb-4(:dialogo="traduccion5")
           h5.text-center <em>For example:</em> / Por ejemplo:           
           .row.justify-content-center.align-items-center
