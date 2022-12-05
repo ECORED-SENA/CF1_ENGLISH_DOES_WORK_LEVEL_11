@@ -17,7 +17,7 @@
         .col-lg-12(data-aos="fade-left")     
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/8-MtH7I_h9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       p(data-aos="fade-down").mb-5
         span.r--4.fst-italic Let’s see how a connected speech is used in order to be able to interact in a dialogue using the reduction of words when speaking in an everyday conversation. Let’s see an example: 
