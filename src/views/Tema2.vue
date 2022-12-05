@@ -81,7 +81,7 @@
     h5(data-aos="fade-down").tblue1 <i>Direct Speech</i>/ Reporte directo
     p(data-aos="fade-down").mb-5 <i>Let’s see some examples of direct speech</i>:
 
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch.mb-4.fst-italic
       .col-lg-3.my-3
         .bg9.p-4.h-100.text-center.brad
           h5.mb-4 Must (obligation)
@@ -107,10 +107,10 @@
             Audio.color-acento-botones.img-a.mb-4(:audio="require('@/assets/curso/audios/Tema2/4.mp3')")
             p.mb-0.tblue  “I #[b shall go]  when I please.” 
 
-    h5(data-aos="fade-down").tblue1 Reported Speech/ Reporte indirecto
-    p(data-aos="fade-down").mb-5 Let’s see some examples of reported speech:
+    h5(data-aos="fade-down").tblue1 <i>Reported Speech</i>/ Reporte indirecto
+    p(data-aos="fade-down").mb-5.fst-italic Let’s see some examples of reported speech:
 
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch.mb-4.fst-italic
       .col-lg-3.my-3
         .bg10.p-4.h-100.text-center.brad
           h5.mb-4 Had to
