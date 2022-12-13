@@ -39,7 +39,7 @@
                     .contenedor-traductor.mb-5(style='background-color: #E1E8FF')
                       .contenedor-traductor__eng.d-flex.justify-content-between
                         p.mb-0.fst-italic.pd2  Hi, Carlos. Yeah, I’m fine but I had an asthma attack in the cafeteria and the school nurse said I might have another one later.
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/Tema2/d1/2.mp3')")
+                        Audio.color-acento-botones.mx-3.aw2(:audio="require('@/assets/curso/audios/Tema2/d1/2.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial2}")
                         p Hola, Carlos. Sí, estoy bien, pero tuve un ataque de asma en la cafetería y la enfermera de la escuela dijo que podría tener otro más tarde.
                       a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fed947') Ver traducción                       

@@ -191,7 +191,7 @@
 
     Dialogo.color-primario(:dialogo="dialogoAct")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad)  Regrets
+      template(#titulo-actividad) To practice modal verbs
       template(#descripcion-actividad)       
 </template>
 
@@ -237,7 +237,7 @@ export default {
           textoIng:
             '<em>Catenation is one of the ways that speakers join words together. In this aspect of connected speech, a consonant sound at the end of a word is joined to a vowel sound at the beginning of the next word.</em>',
           textoEsp:
-            'En esta lección, aprenderá un poco sobre tres formas diferentes en que los sonidos se vinculan en el habla conectada: concatenación, intrusión y geminación. Veamos algunos ejemplos:',
+            'La concatenación es una de las formas en la que los hablantes unen palabras. En este aspecto del discurso conectado, el sonido de una consonante al final de una palabra se une al sonido de una vocal al principio de la palabra siguiente.',
         },
       ],
     },

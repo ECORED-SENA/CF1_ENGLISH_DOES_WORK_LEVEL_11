@@ -54,7 +54,7 @@
                       .contenedor-traductor.mb-5(style='background-color: #FFDFE0')
                         .contenedor-traductor__eng.d-flex.justify-content-between
                           p.mb-0.fst-italic.pd1  He insisted I fainted because I have a nutritional imbalance and that sugar is causing my migraines.
-                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/Tema1/1/3.mp3')")
+                          Audio.color-acento-botones.mx-3.aw(:audio="require('@/assets/curso/audios/Tema1/1/3.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial3}")
                           p Insistió en que me desmayé porque tengo un desequilibrio nutricional y que el azúcar está causando mis migrañas.
                         a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fed947') Ver traducción                      
@@ -63,7 +63,7 @@
                       .contenedor-traductor.mb-5(style='background-color: #E1E8FF')
                         .contenedor-traductor__eng.d-flex.justify-content-between
                           p.mb-0.fst-italic.pd2  Maybe he’s right. He is a really good doctor, very professional.
-                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/Tema1/1/4.mp3')")
+                          Audio.color-acento-botones.mx-3.aw1(:audio="require('@/assets/curso/audios/Tema1/1/4.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial4}")
                           p Tal vez tenga razón. Él es un muy buen médico, muy profesional.
 
@@ -131,7 +131,7 @@
                       h4.mb-3.text-center.tblue1 Direct Speech 
                       p.mb-3.text-center Present simple             
                       TarjetaAudio.color-acento-botones.mb-3.bg-white.mx-1(
-                          texto="“My friend <span>lies</span> in his resume.”"
+                          texto="“My friend <span>lies</span> in his resume”."
                           :audio="require('@/assets/curso/audios/Tema1/4.mp3')"
                         )
                                     
@@ -148,7 +148,7 @@
                       h4.mb-3.text-center.tblue1 Direct Speech
                       p.mb-3.text-center Present continuous          
                       TarjetaAudio.color-acento-botones.mb-3.bg-white.mx-1(
-                          texto="“We <span>are working</span> overtime.”"
+                          texto="“We <span>are working</span> overtime”."
                           :audio="require('@/assets/curso/audios/Tema1/6.mp3')"
                         )
                                     
@@ -165,7 +165,7 @@
                       h4.mb-3.text-center.tblue1 Direct Speech 
                       p.mb-3.text-center Present perfect             
                       TarjetaAudio.color-acento-botones.mb-3.bg-white.mx-1(
-                          texto="“I <span>have found</span> some great bargains.”"
+                          texto="“I <span>have found</span> some great bargains”."
                           :audio="require('@/assets/curso/audios/Tema1/8.mp3')"
                         )
                                       
@@ -182,7 +182,7 @@
                       h4.mb-3.text-center.tblue1 Direct Speech 
                       p.mb-3.text-center Past simple           
                       TarjetaAudio.color-acento-botones.mb-3.bg-white.mx-1(
-                          texto="“I <span>went</span> for a job interview at a new company.”"
+                          texto="“I <span>went</span> for a job interview at a new company”."
                           :audio="require('@/assets/curso/audios/Tema1/10.mp3')"
                         )
                                     
@@ -199,7 +199,7 @@
                       h4.mb-3.text-center.tblue1 Direct Speech 
                       p.mb-3.text-center Will         
                       TarjetaAudio.color-acento-botones.mb-3.bg-white.mx-1(
-                          texto="“Our products <span>will be</span> eco-friendly.”"
+                          texto="“Our products <span>will be</span> eco-friendly”."
                           :audio="require('@/assets/curso/audios/Tema1/12.mp3')"
                         )
                                       
@@ -286,7 +286,7 @@
                     h4.mb-4.text-center.tblue1 Direct Speech 
                     p.mb-4.text-center Present simple             
                     TarjetaAudio.color-acento-botones.mb-5.bg-white.mx-1(
-                        texto="“My friend <span>lies</span> in his resume.”"
+                        texto="“My friend <span>lies</span> in his resume”."
                         :audio="require('@/assets/curso/audios/Tema1/16.mp3')"
                       )
                                   
@@ -305,7 +305,7 @@
                     h4.mb-4.text-center.tblue1 Direct Speech 
                     p.mb-4.text-center Present continuous           
                     TarjetaAudio.color-acento-botones.mb-5.bg-white.mx-1(
-                        texto="“We <span>are working</span> overtime.”"
+                        texto="“We <span>are working</span> overtime”."
                         :audio="require('@/assets/curso/audios/Tema1/18.mp3')"
                       )
                                   
@@ -324,7 +324,7 @@
                     h4.mb-4.text-center.tblue1 Direct Speech 
                     p.mb-4.text-center Present perfect          
                     TarjetaAudio.color-acento-botones.mb-5.bg-white.mx-1(
-                        texto="“I <span>have found</span> some great bargains.”"
+                        texto="“I <span>have found</span> some great bargains”."
                         :audio="require('@/assets/curso/audios/Tema1/20.mp3')"
                       )
                                   
@@ -343,7 +343,7 @@
                     h4.mb-4.text-center.tblue1 Direct Speech 
                     p.mb-4.text-center Past simple           
                     TarjetaAudio.color-acento-botones.mb-5.bg-white.mx-1(
-                        texto="“I <span>went</span> for a job interview at a new company.”"
+                        texto="“I <span>went</span> for a job interview at a new company”."
                         :audio="require('@/assets/curso/audios/Tema1/22.mp3')"
                       )
                                   
@@ -362,7 +362,7 @@
                     h4.mb-4.text-center.tblue1 Direct Speech 
                     p.mb-4.text-center Will          
                     TarjetaAudio.color-acento-botones.mb-5.bg-white.mx-1(
-                        texto="“Our products <span>will be</span> eco-friendly.”"
+                        texto="“Our products <span>will be</span> eco-friendly”."
                         :audio="require('@/assets/curso/audios/Tema1/24.mp3')"
                       )
                                   
@@ -565,7 +565,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>Sometimes someone says something, for example “I’m working in a law firm””. And later, we’re going to tell someone else what the first person said.<br>his is where the topic of how to change direct speech (“I’m working in a law firm”) into reported speech (Camila said she was working in a law firm) comes in, for which the most common verbs are “<span>say</span>”, “<span>tell</span>”, and “<span>ask</span>”. But these are not the only verbs to report what someone said, we can also use others, such as “promise”, “warn”, “advise”, and “recommend”.</em>',
+            '<em>Sometimes someone says something, for example “I’m working in a law firm””. And later, we’re going to tell someone else what the first person said.<br>This is where the topic of how to change direct speech (“I’m working in a law firm”) into reported speech (Camila said she was working in a law firm) comes in, for which the most common verbs are “<span>say</span>”, “<span>tell</span>”, and “<span>ask</span>”. But these are not the only verbs to report what someone said, we can also use others, such as “promise”, “warn”, “advise”, and “recommend”.</em>',
           textoEsp:
             'A veces, alguien dice algo, por ejemplo: “Estoy trabajando en una oficina de abogados”. Y más tarde, vamos a contarle a alguien más lo que dijo la primera persona. <br>Es aquí donde entra el tema de cómo cambiar el discurso directo (“Estoy trabajando en una oficina de abogados”) en discurso indirecto (Camila dijo que estaba trabajando en una oficina de abogados), siendo para esto los verbos más comunes “<span><em>say</span></em>”, “<span><em>tell</span></em>” y “<span><em>ask<span><em>”. Pero estos no son los únicos verbos para informar lo que alguien dijo, también podemos usar otros, como “<span><em>promise</span></em>”, “<span><em>warn</span></em>”, “<span><em>advise<span><em>” y “<span><em>recommend</span></em>”.',
         },
@@ -623,7 +623,7 @@ export default {
           textoIng:
             '<em>Reported speech is often used to convey what someone else said without directly quoting what was said. For this, most often, the tense of the sentence is changed. Reporting verbs such as “<span><em>say</span></em>”, “<span><em>tell</span></em>”, “<span><em>ask</span></em>”, and others are used to present the information. The first person’s words are not enclosed in quotation marks.<br> And in some cases, but not always, the word “that” is used to connect the reporting verb to the reported information.</em>',
           textoEsp:
-            'El discurso indirecto suele usarse para transmitir lo que alguien más dijo sin citar directamente lo que se dijo. Para esto, la mayoría de las veces, se cambia el tiempo de la oración. Los verbos para reportar, como “say”, “tell”, “ask” y otros se utilizan para presentar la información. Las palabras de la primera persona no se presentan entre comillas, y en algunos casos, pero no siempre, la palabra "that" se usa para conectar el verbo para reportar con la información reportada.',
+            'El discurso indirecto suele usarse para transmitir lo que alguien más dijo sin citar directamente lo que se dijo. Para esto, la mayoría de las veces, se cambia el tiempo de la oración. Los verbos para reportar, como “say”, “tell”, “ask” y otros se utilizan para presentar la información. Las palabras de la primera persona no se presentan entre comillas, y en algunos casos, pero no siempre, la palabra "that" se usa para conectar el verbo con la información reportada.',
         },
       ],
     },
